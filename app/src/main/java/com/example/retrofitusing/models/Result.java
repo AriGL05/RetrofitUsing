@@ -24,4 +24,7 @@ class Result {
         String[] urlPartes = url.split("/");
         return urlPartes[urlPartes.length - 1];
     }
+    public String getImageUrl(){
+        return"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"+getNumber();
+    }
 }
