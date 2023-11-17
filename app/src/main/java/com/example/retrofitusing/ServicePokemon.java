@@ -3,6 +3,8 @@
 // YApi QuickType插件生成，具体参考文档:https://plugins.jetbrains.com/plugin/18847-yapi-quicktype/documentation
 
 package com.example.retrofitusing;
+import com.example.retrofitusing.models.Result;
+
 import java.util.List;
 
 public class ServicePokemon {
@@ -20,13 +22,3 @@ public class ServicePokemon {
 
 // YApi QuickType插件生成，具体参考文档:https://plugins.jetbrains.com/plugin/18847-yapi-quicktype/documentation
 
-class Result {
-    private String name;
-    private String url;
-
-    public String getName() { return name; }
-    public void setName(String value) { this.name = value; }
-
-    public String geturl() { return url; }
-    public void seturl(String value) { this.url = value; }
-}
